@@ -1,6 +1,23 @@
 Python Implementation of Apriori Algorithm 
 ==========================================
 
+## Topic 3 讲义讲解（主页）
+
+Streamlit 多页面应用现以 **Topic 3（OLS 假设 A1 与 FWL 定理）** 中文讲解为主入口：
+
+- 主页：`streamlit_app.py` — 课程导读
+- `pages/1_Topic3_讲义讲解.py` — 分节讲解 + 交互示例（共线性、仅截距 OLS/LAD、投影矩阵、FWL 三路径）
+- `pages/2_Apriori_演示.py` — 原 Apriori 关联规则演示
+
+运行：
+
+```bash
+pip3 install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+然后在侧栏打开 **Topic3 讲义讲解**。
+
 ## Set up
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/asaini/apriori/python3) [![Build Status](https://travis-ci.org/asaini/Apriori.svg?branch=master)](https://travis-ci.org/asaini/Apriori) 
 
